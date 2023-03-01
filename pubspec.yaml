@@ -1,0 +1,45 @@
+name: musicapp
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # statemanagement
+  get: 
+  get_storage:
+  
+  # networking
+  dio: 
+  http: 
+  dio_http_cache:
+  flutter_html:
+  intl:
+  card_swiper: ^1.0.4
+  expandable_text: ^2.2.0
+  html:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  change_app_package_name: 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - configs/
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/Helvetica.ttf
